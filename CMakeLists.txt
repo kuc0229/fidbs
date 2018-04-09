@@ -3,4 +3,4 @@ project(fidbs)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(fidbs src/main.cpp)
+add_executable(fidbs include/fidbs/cTable.h src/cTable.cpp test/main.cpp)
